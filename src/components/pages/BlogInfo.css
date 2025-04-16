@@ -1,0 +1,32 @@
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 24px;
+    color: black;
+
+}
+
+.container_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 60px;
+    background-color: #fff;
+    opacity: 0.7;
+    margin: 10px;
+    padding: 10px;
+}
+
+.blog_box {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    opacity: 0.6;
+
+}
+
+.blog_text {
+    padding: 10px;
+}

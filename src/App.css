@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background: url(https://wallpaper.forfun.com/fetch/4b/4bb69680ab67d5dff35368669fb6383a.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .App-logo {
@@ -32,7 +36,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1170px;
+
 }
